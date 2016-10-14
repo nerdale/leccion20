@@ -7,11 +7,19 @@ function callbackPromedio (a, b, c, callback){
 
 
 //segundero
-	
+
+var cronometro;
 function segundero(){
 	var seg = 1;
-	setInterval(function(){
-		document.getElementById("titulo").innerHTML = seg++;
+	cronometro = setInterval(function(){
+		document.getElementById("segundero").innerHTML = seg++;
 	},1000);
 }
 segundero();
+
+//parar segundero
+function parar() {
+ clearInterval(cronometro);
+}	
+
+

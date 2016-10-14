@@ -1,0 +1,30 @@
+.titulo{
+	text-align: center;
+	color: #004E8B;
+}
+.box{
+	width: 30%;
+	background-color: #004E8B;
+	margin: 20px auto;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+#segundero{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	padding-top: 40px;
+}
+.boton{
+	margin-top: 60px;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	width: 150px;
+	font-size: 16px;
+	background-color: #87888B;
+}
+.boton:hover{
+	background-color: #AAACB0;
+}
